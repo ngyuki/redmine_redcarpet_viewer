@@ -8,7 +8,7 @@ module Redmine
     class HTMLwithSyntaxHighlighting < ::Redcarpet::Render::HTML
 
       def block_code(code, language)
-        if language != nil 
+        if language != nil
           "<pre><code class='#{language} syntaxhl'>" \
           + Redmine::SyntaxHighlighting.highlight_by_language(code, language) \
           + "</code></pre>"
