@@ -1,29 +1,28 @@
-# Redmine Redcarpet Repository Viewer plugin #
+# Redmine Redcarpet Repository Viewer plugin
 
-## 概要 ##
+## Install
 
-Redmine のリポジトリビュワーで Markdown ファイルを表示したときに、
-Redcarpet で解析して表示するプラグインです。
-
-
-## インストール ##
-
-Redmine のプラグインディレクトリに移動します。
+Move Redmine plugin directory.
 
 ```console
 $ cd /path/to/redmine/plugins/
 ```
 
-プラグインを clone します。
+Clone plugin from github.
 
 ```console
 $ git clone https://github.com/ngyuki/redmine_redcarpet_viewer.git
 ```
 
-Bundler で必要なパッケージをインストールします。
+Install dependency by bundler.
 
 ```console
+$ cd /path/to/redmine/
 $ bundle install
 ```
 
-Redmine を再起動します。
+Restart Redmine.
+
+```console
+$ sudo service httpd restart
+```
