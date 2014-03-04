@@ -1,4 +1,4 @@
-# Redmine Redcarpet Repository Viewer plugin
+# Redmine Redcarpet Viewer plugin
 
 ## Install
 

@@ -1,6 +1,6 @@
-# Redmine Redcarpet Repository Viewer plugin
+# Redmine Redcarpet Viewer plugin
 
-Redmine のリポジトリビュワーで Markdown ファイルを表示したときに、Redcarpet で解析して表示するプラグインです。
+Redmine のリポジトリビュワーで Markdown ファイルを表示したときに Redcarpet で表示するためのプラグインです。
 
 ## インストール
 

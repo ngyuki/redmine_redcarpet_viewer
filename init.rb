@@ -6,9 +6,9 @@ Rails.configuration.to_prepare do
 end
 
 Redmine::Plugin.register :redmine_redcarpet_viewer do
-  name 'Redmine Redcarpet Repository Viewer plugin'
+  name 'Redmine Redcarpet Viewer plugin'
   author 'Toshiyuki Goto'
-  description 'preview Redcarpet markdown in repository.'
+  description 'Preview markdown in repository.'
   version '0.0.1'
   url 'https://github.com/ngyuki/redmine_redcarpet_viewer'
   author_url 'https://github.com/ngyuki'
